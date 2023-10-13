@@ -10,6 +10,7 @@ import static testcases.TC01_Registration.PASSWORD;
 import static testcases.TC01_Registration.UserName;
 
 public class TC02_LoginPage extends TestBase {
+
     //define test data
 
     //ToDo: create test case to check login with valid emila nad password
@@ -26,6 +27,7 @@ public class TC02_LoginPage extends TestBase {
     @Test(priority = 2)
     public void loginWithValidUsernameAndInvalidPassword_N() {
         PASSWORD = "dsfsd";
+
         //ToDo: Login with invalid mail and invalid password
         new P02_LoginPage(driver).EnterUsername(UserName).enterPassword(PASSWORD).clickLoginButton();
 

@@ -23,4 +23,76 @@
             </class>
         </classes>
     </test>
+    <test name="Check open new account feature">
+        <classes>
+            <class name="testcases.TC04_OpenNewAccount">
+                <methods>
+                    <include name="OpenNewAccount_P"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Check account over view">
+        <classes>
+            <class name="testcases.TC05_AccountsOverview">
+                <methods>
+                    <include name="CheckAccountOverView_P"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Check The Transfer Funds">
+        <classes>
+            <class name="testcases.TC06_TransferFunds">
+                <methods>
+                    <include name="CheckTheTransferFunds_P"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Add Bill Payment">
+        <classes>
+            <class name="testcases.TC07_BillPayment">
+                <methods>
+                    <include name="AddBillPayment_P"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Filter the Transactions">
+        <classes>
+            <class name="testcases.TC08_FindTransactions">
+                <methods>
+                    <include name="FilterTheTransactionsByDate_P"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Update the profile info">
+        <classes>
+            <class name="testcases.TC09_UpdateContactInfo">
+                <methods>
+                    <include name="UpdateTheProfile_P"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Request new loan">
+        <classes>
+            <class name="testcases.TC10_RequestLoan">
+                <methods>
+                    <include name="RequestLoan_P"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Logout">
+        <classes>
+            <class name="testcases.TC10_RequestLoan">
+                <methods>
+                    <include name="Logout_P"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
 </suite>
